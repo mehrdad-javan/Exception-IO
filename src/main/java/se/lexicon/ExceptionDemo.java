@@ -168,7 +168,7 @@ public class ExceptionDemo {
 
             bufferedWriter.write("SQL");
             bufferedWriter.newLine();
-            bufferedWriter.close();
+            //bufferedWriter.close();
         } catch (IOException e) {
             System.out.println("An I/O exception occurred: " + e.getMessage());
             e.printStackTrace();
