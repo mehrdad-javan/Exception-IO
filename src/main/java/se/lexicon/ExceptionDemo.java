@@ -153,8 +153,6 @@ public class ExceptionDemo {
 
     }
 
-
-
     public static void writeTextToFileS2() {
 
         try (
